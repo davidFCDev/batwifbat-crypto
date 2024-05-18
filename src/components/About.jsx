@@ -16,7 +16,7 @@ export const About = () => {
         initial={{ opacity: 0, y: 50 }}
         animate={inView1 ? animationOptions : {}}
         ref={ref1}
-        src="/public/crew.png"
+        src="/crew.png"
         alt="prueba"
         className="min-w-[350px] sm:min-w-[400px] lg:w-[700px] shadow-sm rounded-2xl shadow-black"
       />
