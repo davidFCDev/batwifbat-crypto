@@ -8,7 +8,7 @@ export const Video = () => {
     transition: { duration: 1.2 },
   };
 
-  const [ref1, inView1] = useInView({ threshold: 0.6, triggerOnce: true });
+  const [ref1, inView1] = useInView({ threshold: 0.4, triggerOnce: true });
 
   return (
     <div className="w-full flex flex-col gap-10 py-20 px-4 justify-center items-center text-center">
@@ -29,7 +29,7 @@ export const Video = () => {
             ref={ref1}
             src="/pump.png"
             alt="Pump"
-            className="w-80 sm:w-64 rounded "
+            className="w-72 sm:w-64 rounded "
           />
         </div>
         <div className="flex flex-col gap-3">
@@ -39,7 +39,7 @@ export const Video = () => {
             ref={ref1}
             src="/solana.png"
             alt="Solana"
-            className="w-80 sm:w-52"
+            className="w-64 sm:w-52"
           />
         </div>
       </div>
