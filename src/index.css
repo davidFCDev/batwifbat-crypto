@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Barriecito&family=Caveat:wght@400;600;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "Caveat";
+
+  color-scheme: light dark;
+  background: rgb(135, 57, 179);
+  background: linear-gradient(
+    90deg,
+    rgba(135, 57, 179, 1) 0%,
+    rgba(121, 15, 179, 1) 45%
+  );
+  color: black;
+}
+
+.page {
+  background-image: url("https://img.freepik.com/fotos-premium/fondo-abstracto-playa-paisaje-marino-desenfoque-bokeh-luz-mar-calma-cielo_1484-1989.jpg?w=996");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.title {
+  font-family: "Barriecito";
+}
