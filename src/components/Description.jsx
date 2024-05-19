@@ -81,6 +81,12 @@ export const Description = () => {
           </div>
         </motion.div>
       </div>
+      <div className="text-white text-xl w-full rounded-lg h-40 mt-10 p-5 flex flex-col gap-4 items-center justify-center">
+        <p>
+          Join us in our journey to the moon. We are a community-driven project!
+        </p>
+        <p>Developed by <a href="https://t.me/hellboundTrade" className="underline text-secondary text-2xl">Chucky</a></p>
+      </div>
     </div>
   );
 };
