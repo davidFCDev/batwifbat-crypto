@@ -4,7 +4,7 @@ export const Header = () => {
       <img src="/LogoText_PNG.png" alt="Letra logos" className="w-56 hidden lg:block" />
       <div className="flex gap-4 sm:gap-10 text-md md:text-3xl items-center">
         <a
-          href="#"
+          href="https://t.me/BatWifBatportal"
           target="_blank"
           rel="noreferrer"
           className="hover:text-secondary"
@@ -12,7 +12,7 @@ export const Header = () => {
           Telegram
         </a>
         <a
-          href="#"
+          href="https://x.com/BatWifBatSolana"
           target="_blank"
           rel="noreferrer"
           className="hover:text-secondary"
